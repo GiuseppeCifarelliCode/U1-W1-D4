@@ -20,7 +20,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(0,136,170,255);
+    background: linear-gradient(180deg, #3952bb, #366b8f);
     margin-bottom: 15px;
     color: white;
     padding: 10px;
@@ -44,6 +44,7 @@ i {
 
 h2 {
     padding: 10px 0;
+    margin-top: 15px;
 }
 
 ul:last-child {
@@ -123,6 +124,10 @@ tr:last-of-type {
     margin-bottom: 20px;
 }
 
+tr:nth-child(even) {
+    background-color: #D6EEEE;
+  }
+
 iframe {
     margin-top: 15px;
     border-radius: 20px;
@@ -159,11 +164,9 @@ input {
 }
 /* FOOTER */
 footer {
-    background-color: rgba(14,78,88,255);
+    background: linear-gradient(180deg, #343258, #1b1f3c);
     padding: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
     margin-top: 20px;
     box-shadow: 0px 5px 10px 2px #24254e;
 }
