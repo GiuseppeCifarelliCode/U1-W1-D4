@@ -24,6 +24,7 @@ header {
     margin-bottom: 15px;
     color: white;
     padding: 10px;
+    box-shadow: 0px 5px 10px 2px #24254e;
 }
 /* ELEMENTI DELL' HEADER */
 nav ul {
@@ -56,6 +57,7 @@ main {
     align-items: center;
     background-color: white;
     padding: 15px;
+    box-shadow: 0px 5px 10px 2px #24254e;
 }
 /* ELEMENTI NEL MAIN - ARTICLE */
 h1, h2, h3 {
@@ -71,6 +73,10 @@ h2 {
     font-size: 1.2em;
 }
 
+.news {
+    padding-left: 15px;
+}
+
 .artDetails {
     opacity: 0.5;
     margin-bottom: 10px;
@@ -81,8 +87,15 @@ ul, ol {
 }
  li {
     margin: 10px 20px;
+    line-height: initial;
  }
 
+ .elements {
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #80808080
+ }
 caption {
     font-style: italic;
     font-weight: bold;
@@ -112,6 +125,9 @@ tr:last-of-type {
 
 iframe {
     margin-top: 15px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* FORM */
 form {
@@ -129,12 +145,18 @@ input {
     border-bottom-style: dashed;
 }
 /* ELEMENTI NELL' ASIDE */
-.articles {
+.article {
     width: 75vw;
     background-color: rgba(231,222,224,255);
-    padding: 15px;
+    padding: 5px 15px;
+    margin-bottom: 15px;
 }
 
+.date {
+    font-size: 0.8em;
+    margin-bottom: 0;
+    padding-left: 50%;
+}
 /* FOOTER */
 footer {
     background-color: rgba(14,78,88,255);
@@ -142,6 +164,8 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 20px;
+    box-shadow: 0px 5px 10px 2px #24254e;
 }
 
 footer a {
