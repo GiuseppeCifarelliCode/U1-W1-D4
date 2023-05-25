@@ -1,0 +1,149 @@
+/* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    margin: 15px;
+    background-image: url(../img/sfondo.png);
+    background-position: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-size: 1em;
+    margin: 15px 0;
+}
+
+span {
+    color: rgba(255,0,254,255);
+}
+/* HEADER */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0,136,170,255);
+    margin-bottom: 15px;
+    color: white;
+    padding: 10px;
+}
+/* ELEMENTI DELL' HEADER */
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+}
+
+nav li {
+    margin: 5px 0;
+}
+
+i {
+    padding: 0 5px;
+}
+
+h2 {
+    padding: 10px 0;
+}
+
+ul:last-child {
+    padding-bottom: 10px;
+}
+
+/* MAIN */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 15px;
+}
+/* ELEMENTI NEL MAIN - ARTICLE */
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+.artDetails {
+    opacity: 0.5;
+    margin-bottom: 10px;
+}
+/* TABELLE/LISTE */
+ul, ol {
+    margin: 15px 0;
+}
+ li {
+    margin: 10px 20px;
+ }
+
+caption {
+    font-style: italic;
+    font-weight: bold;
+}
+table {
+    width: 100%;
+}
+thead {
+    height: 50px;
+}
+th {
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+td {
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+tr:last-of-type {
+    border-bottom: 1px solid blue;
+    margin-bottom: 20px;
+}
+
+iframe {
+    margin-top: 15px;
+}
+/* FORM */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(231,222,224,255);
+}
+
+button {
+    background-color: blue;
+    color: white;
+}
+input {
+    border-bottom-style: dashed;
+}
+/* ELEMENTI NELL' ASIDE */
+.articles {
+    width: 75vw;
+    background-color: rgba(231,222,224,255);
+    padding: 15px;
+}
+
+/* FOOTER */
+footer {
+    background-color: rgba(14,78,88,255);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer a {
+    color: rgba(255,0,254,255);
+}
